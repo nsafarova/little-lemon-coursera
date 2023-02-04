@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&family=Markazi+Text:wght@500&display=swap');
+
+:root {
+    --primary-green: #495E57;
+    --primary-yellow: #F4CE14;
+    --secondary-dark: #EE9972;
+    --secondary-light: #FBDABB;
+    --highlight-dark: #333333;
+    --highlight-light: #EDEFEE;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base {
+    html {
+        @apply scroll-smooth
+    }
+
+    body {
+        @apply font-[Karla]
+    }
+
+    button {
+        @apply font-bold px-4 py-3 bg-[var(--primary-yellow)] text-black rounded
+    }
+
+    h1 {
+        font-family: 'Markazi Text', serif;
+        @apply text-6xl font-semibold
+    }
+
+    h2 {
+        font-family: 'Markazi Text', serif;
+        @apply text-5xl font-semibold
+    }
 }
