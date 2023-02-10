@@ -12,29 +12,26 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full min-h-[60px] flex justify-between items-center absolute z-10 text-white font-semibold bg-[var(--highlight-light)]">
+    <nav className="w-full min-h-[60px] flex justify-between items-center absolute z-10 text-white font-semibold bg-white">
       <div>
         <img className="flex w-40 mx-6" src={logo} alt="logo"></img>
       </div>
 
-      <ul className="hidden sm:flex text-black px-4">
+      <ul className="hidden sm:flex text-black">
         <li className="px-4 md:px-16">
           <Link to="/">Home</Link>
-        </li>
-        <li className="px-4 md:px-16">
-          <a href="#about">About</a>
         </li>
         <li className="px-4 md:px-16">
           <a href="#specials">Specials</a>
         </li>
         <li className="px-4 md:px-16">
-          <Link to="/booking">Reservations</Link>
+         <Link to="/booking">Reservations</Link>
         </li>
         <li className="px-4 md:px-16">
-          <a href="#order">Order</a>
+           <a href="#order">Order</a>
         </li>
         <li className="px-4 md:px-16">
-          <a href="#login">Login</a>
+          <a href="#about">About</a>
         </li>
       </ul>
 
@@ -58,10 +55,16 @@ const Navbar = () => {
             <Link to="/">Home</Link>
           </li>
           <li className="text-2xl py-8">
-            <a href="#about">About</a>
+            <a href="#about">Specials</a>
           </li>
           <li className="text-2xl py-8">
-            <Link to="/booking">Booking</Link>
+            <Link to="/booking">Reservations</Link>
+          </li>
+          <li className="text-2xl py-8">
+            <a href="#about">Order</a>
+          </li>
+          <li className="text-2xl py-8">
+            <a href="#about">About</a>
           </li>
         </ul>
       </div>

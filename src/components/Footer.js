@@ -1,12 +1,16 @@
 import React from "react";
+import logo from '../assets/little-lemon-logo.png';
 
 const Footer = () => {
   return (
-    <footer className="max-w-[1140px] w-full m-auto py-8 border-t-4">
-        <div className="flex items-center m-auto justify-center">
-            <h1 className="text-xl font-bold text-gray-700">Little lemon</h1>
+    <footer className="bg-[var(--highlight-light)] text-white py-4">
+      <div className="container mx-auto flex items-center justify-center gap-6">
+        <img src={logo} alt="Restaurant logo" className="w-32" />
+        <div className="text-sm text-black font-semibold">
+          &copy; {new Date().getFullYear()} Little Lemon. All rights reserved.
         </div>
+      </div>
     </footer>
   )
 }
-export default Footer
+export default Footer;
