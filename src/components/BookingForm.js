@@ -42,12 +42,13 @@ const BookingForm = (props) => {
           <h2 className="text-center mb-4">Reserve a Table</h2>
 
           <label className="block text-gray-700 font-bold mb-2" htmlFor="name">
-            First and Last Name
+            Name
           </label>
           <input
             className="border border-gray-400 p-2 w-full mb-4"
             type="text"
             name="name"
+            id="name"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
@@ -101,6 +102,7 @@ const BookingForm = (props) => {
           </label>
           <select
             className="border border-gray-400 p-2 w-full mb-4"
+            id="occasion"
             value={occasion}
             onChange={(e) => setOccasion(e.target.value)}
           >
