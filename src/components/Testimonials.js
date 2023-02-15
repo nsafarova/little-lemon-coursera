@@ -1,6 +1,6 @@
 const Testimonials = () => {
   return (
-    <section className="bg-white p-10">
+    <section className="bg-[var(--primary-yellow)] p-10">
     <h2 className="mb-6 text-center">
       Our customers say
     </h2>
