@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from '../assets/little-lemon-logo.png';
+import logo from "../assets/little-lemon-logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -22,16 +22,16 @@ const Navbar = () => {
           <Link to="/">Home</Link>
         </li>
         <li className="px-4 md:px-16">
+          <a href="#about">About</a>
+        </li>
+        <li className="px-4 md:px-16">
           <a href="#specials">Specials</a>
         </li>
         <li className="px-4 md:px-16">
-         <Link to="/booking">Reservations</Link>
+          <Link to="/booking">Reservations</Link>
         </li>
         <li className="px-4 md:px-16">
-           <a href="#order">Order</a>
-        </li>
-        <li className="px-4 md:px-16">
-          <a href="#about">About</a>
+          <a href="#order">Order</a>
         </li>
       </ul>
 

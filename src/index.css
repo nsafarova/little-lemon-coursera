@@ -23,7 +23,7 @@
     }
 
     button {
-        @apply font-medium text-center px-5 py-3 bg-[var(--primary-yellow)] text-black rounded-full hover:bg-yellow-500 focus:ring-4 focus:outline-none
+        @apply font-medium text-center px-5 py-3 bg-[var(--primary-yellow)] text-black rounded hover:bg-yellow-500 focus:ring-4 focus:outline-none
     }
 
     h1 {

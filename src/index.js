@@ -5,6 +5,7 @@ import App from "./App";
 import BookingPage from "./routes/BookingPage";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ConfirmationPage from "./routes/ConfirmationPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -13,6 +14,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/booking" element={<BookingPage />} />
+        <Route path="/confirmation" element={<ConfirmationPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
