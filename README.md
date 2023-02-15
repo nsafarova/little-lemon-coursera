@@ -23,6 +23,7 @@ You can see a live demo of this project [here](https://nsafarova.github.io/littl
 - `About page` with information about the restaurant's history
 - Responsive `Navigation bar` that allows users to easily switch between pages
 - `React router` for client-side routing
+- Update the availability of reservation time
 
 ## Screenshots
 
