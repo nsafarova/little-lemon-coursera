@@ -83,7 +83,7 @@ const BookingForm = (props) => {
           </select>
 
           <label className="block text-gray-700 font-bold mb-2" htmlFor="numberOfGuests">
-            Number of numberOfGuests
+            Number of guests
           </label>
           <input
             className="border border-gray-400 p-2 w-full mb-4"
