@@ -1,6 +1,6 @@
-# Little Lemon Restaurant - Meta Frontend Developer Capstone Project
+# Little Lemon Restaurant - Meta Front-end Developer Capstone Project
 
-This is a capstone project created as part of a React web development course. The project is a website for Little Lemon restaurant, a fictional restaurant that serves delicious Mediterranean food. The website is built using React and styled with Tailwind CSS. React routers are used to navigate between pages and state management techniques are implemented to manage the application's state.
+This is a capstone project created as part of a [Meta Front-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-front-end-developer) course. The project is a website for Little Lemon restaurant, a fictional restaurant that serves delicious Mediterranean food. The website is built using React and styled with Tailwind CSS. React routers are used to navigate between pages and state management techniques are implemented to manage the application's state.
 
 ## Table of Contents
 
