@@ -12,7 +12,7 @@ This is a capstone project created as part of a [Meta Front-End Developer Profes
 
 ## Demo
 
-You can see a live demo of this project [here](https://nsafarova.github.io/little-lemon-coursera).
+You can see a live demo of this project [here](https://nsafarova.github.io/little-lemon-coursera/).
 
 ## Features
 
