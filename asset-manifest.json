@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/little-lemon-coursera/static/css/main.98905ed0.css",
+    "main.js": "/little-lemon-coursera/static/js/main.0e9357c7.js",
+    "static/media/chefs-1.jpg": "/little-lemon-coursera/static/media/chefs-1.7f44c6d6e341a27d14b3.jpg",
+    "static/media/chef.jpg": "/little-lemon-coursera/static/media/chef.4b4c2d26b514db32e8fc.jpg",
+    "static/media/greek-salad.jpg": "/little-lemon-coursera/static/media/greek-salad.bed423a1fab5b210e347.jpg",
+    "static/media/restauranfood.jpg": "/little-lemon-coursera/static/media/restauranfood.cd46299b27416ee984a4.jpg",
+    "static/media/little-lemon-logo.png": "/little-lemon-coursera/static/media/little-lemon-logo.d4cae6fac8384c2dae04.png",
+    "static/media/lemon-dessert.jpeg": "/little-lemon-coursera/static/media/lemon-dessert.0ad49e696b518f554fd7.jpeg",
+    "index.html": "/little-lemon-coursera/index.html",
+    "main.98905ed0.css.map": "/little-lemon-coursera/static/css/main.98905ed0.css.map",
+    "main.0e9357c7.js.map": "/little-lemon-coursera/static/js/main.0e9357c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98905ed0.css",
+    "static/js/main.0e9357c7.js"
+  ]
+}
