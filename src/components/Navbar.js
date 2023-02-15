@@ -22,16 +22,16 @@ const Navbar = () => {
           <Link to="/">Home</Link>
         </li>
         <li className="px-4 md:px-16">
-          <a href="#about">About</a>
+          <a href="/">About</a>
         </li>
         <li className="px-4 md:px-16">
-          <a href="#specials">Specials</a>
+          <a href="/">Specials</a>
         </li>
         <li className="px-4 md:px-16">
           <Link to="/booking">Reservations</Link>
         </li>
         <li className="px-4 md:px-16">
-          <a href="#order">Order</a>
+          <a href="/">Order</a>
         </li>
       </ul>
 
@@ -55,16 +55,16 @@ const Navbar = () => {
             <Link to="/">Home</Link>
           </li>
           <li className="text-2xl py-8">
-            <a href="#about">Specials</a>
+            <a href="#about">About</a>
+          </li>
+          <li className="text-2xl py-8">
+            <a href="specials">Specials</a>
           </li>
           <li className="text-2xl py-8">
             <Link to="/booking">Reservations</Link>
           </li>
           <li className="text-2xl py-8">
             <a href="#about">Order</a>
-          </li>
-          <li className="text-2xl py-8">
-            <a href="#about">About</a>
           </li>
         </ul>
       </div>
